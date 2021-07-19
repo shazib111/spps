@@ -206,9 +206,9 @@ main::after{
     display: flex;
     justify-content: space-around;
     margin: auto;
-    padding: 40px;
-    max-width: 750px;
-    border-radius: 40px;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 20px;
   }
   .logo{
       width: 100%;
