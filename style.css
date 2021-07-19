@@ -1,0 +1,222 @@
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    word-spacing: .0.5em;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav ul li{
+    display: inline;
+    padding: 1% 1%;
+    border: none;
+    background-image: linear-gradient(45deg ,rgb(40, 27, 226),rgb(40, 22, 204));
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.nav ul li:hover {
+    background-image: linear-gradient(45deg ,rgb(38, 16, 165),rgb(41, 30, 190));
+}
+.nav ul li a{
+    
+    text-decoration: none;
+    color: lavender;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 500;
+}
+.main-title{
+    font-size: 3em;
+    font-weight: 500;
+}
+.style-title{
+    color: rgb(81, 226, 24);
+}
+.section{
+    width: 40%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+main::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.image1 img{
+    width: 70%;
+    margin-left: 20%;
+}
+.btn{
+    text-decoration: none;
+    padding: 2% 2.5%;
+    border: none;
+    background-image: linear-gradient(40deg ,rgb(35, 233, 17),rgb(35, 252, 15));
+    color: lavender;
+    position: relative;
+    top:10px;
+    border-radius: 7%;
+    text-transform: uppercase;
+}
+#p{
+    height: fit-content;
+}
+.p{
+    min-height: 280px;
+    border-left: 8px solid;
+    background-color: honeydew;
+}
+#p1{
+    border-image: linear-gradient( 180deg,rgb(231, 163, 61),rgb(221, 83, 28));
+    border-image-slice: 1;
+}
+#p2{
+    border-image: linear-gradient( 180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.intro{
+    color: gray;
+}
+.title{
+    position: relative;
+    left: 6%;
+    font-size: 2.8em;
+    font-weight: 500;
+    width: 400px;
+}
+.highlight{
+    color: rgb(235, 92, 92);
+    font-weight: 500;
+}
+
+.p:hover{
+    box-shadow: 10px 10px 30px grey;
+    transition: .3s;
+}
+#skills{
+    margin-bottom: 250px;
+    margin: 0 auto;
+    height: 500px;
+    max-width: 800px;
+}
+.progress {
+    background: rgb(190, 186, 186);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background:linear-gradient( 40deg,rgb(212, 14, 230),rgb(209, 3, 245));
+    height: 30px;
+    width: 0;
+  }
+  .html {
+    animation: htm 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background:linear-gradient( 40deg,rgb(11, 15, 235),rgb(12, 8, 255));
+    height: 30px;
+    width: 85%;
+  }
+  .css {
+    animation: css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background:linear-gradient( 40deg,rgb(231, 163, 61),rgb(221, 83, 28));
+    height: 30px;
+    width: 70%;
+  }
+  .js {
+    animation: css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background:linear-gradient( 40deg,rgb(224, 43, 43),rgb(231, 37, 31));
+    height: 30px;
+    width: 50%;
+  }
+  .bs {
+    animation: bs 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background:linear-gradient( 40deg,rgb(233, 43, 217),rgb(221, 28, 205));
+    height: 30px;
+    width: 60%;
+  }
+  .bg{
+      background-color: honeydew;
+      border-radius: 40px;
+      padding: 40px;
+  }
+  .skill{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .skill h2{
+      font-weight: 400;
+  }
+  .logo-container{
+      width: 30px;
+      background-color: rgb(246, 250, 252);
+      height: 30px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 100%;
+  }
+  .logo-container:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+  #contact{
+      margin-bottom: 40px;
+  }
+  .contact{
+    background-color: honeydew;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 40px;
+    max-width: 750px;
+    border-radius: 40px;
+  }
+  .logo{
+      width: 100%;
+  }
+footer{
+    text-align:center ;
+    color: grey;
+    background-color: black;
+    padding: 10px;
+}
+
