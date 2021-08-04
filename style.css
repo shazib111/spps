@@ -220,3 +220,20 @@ footer{
     padding: 10px;
 }
 
+.container{
+    width: 100%;
+}
+.mid{
+    width: 80%;
+    margin:100px auto;
+}
+#grab{
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color: #3be22c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
